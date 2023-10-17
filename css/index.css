@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+.header {
+    width: 1200px;
+    height: 30px;
+    background-color: rgba(132, 123, 132, 0.5);
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.header .logo {
+    float: left;
+    /* margin-left: 10px; */
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.wel {
+    position: absolute;
+    animation: turn 12s linear infinite;
+    width: 130px;
+    height: 20px;
+    margin-top: 20px;
+    /* background-color: rgb(232, 25, 25); */
+}
+
+@keyframes turn {
+    from {}
+
+    to {
+        /* transform: rotate(362deg); */
+        margin-left: 1070px;
+    }
+}
+
+.header .reg {
+    /* width: 100px; */
+    float: right;
+    height: 20px;
+    margin: 5px 5px 20px 0;
+    /* background-color: rgb(221, 0, 0); */
+
+
+}
+
+.header .reg ul li {
+    float: left;
+    margin-left: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.header .reg ul li a {
+    color: black;
+}
+
+.hr hr {
+
+    width: 1200px;
+    background-color: rgba(132, 123, 132, 0.5);
+    /* margin:0 auto; */
+
+}
+
+.w {
+    background-color: rgba(199, 221, 227, 0.5);
+}
+
+.mid {
+    margin: 10px auto;
+    width: 1200px;
+    height: 500px;
+}
+
+.mid .img {
+    position: relative;
+    margin: 0 auto;
+    margin-right: 230px;
+    height: 500px;
+    width: 800px;
+    /* background: url(images/千里与千寻.jpg) ; */
+    background-size: 100% 100%;
+
+}
+
+.hr {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: rgb(242, 40, 40); */
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+    /* border-top:5px groove skyblue; */
+    /* width: 2px; */
+}
+
+.mid .img .bt1,
+.mid .img .bt2 {
+    position: relative;
+    bottom: 30px;
+    left: 700px;
+}
+
+.mid .img .rec {
+    top: 10px;
+    left: -5px;
+    position: absolute;
+    /* height: 40px;
+    width: 40px; */
+    background-color: rgb(237, 43, 78);
+    color: rgb(255, 255, 255);
+}
+
+hr {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.midbox {
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: rgb(0, 0, 0); */
+
+}
+
+.ctt {
+    width: 800px;
+    margin-left: 170px;
+
+}
+
+.ctt ul li {
+    font-size: 20px;
+    padding-left: 60px;
+    float: left;
+    width: 200px;
+    box-sizing: border-box;
+
+}
+
+.ctt ul {
+    /* margin-right: 230px; */
+    margin-top: 5px;
+    /* margin-right: 70px; */
+    height: 30px;
+    line-height: 30px;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+}
+
+.abu1 {
+    display: block;
+    /* z-index: 1; */
+    position: absolute;
+    right: -230px;
+    top: 25px;
+    background-color: rgb(5, 139, 86);
+    width: 215px;
+    color: rgb(0, 0, 0);
+
+}
+
+.mid img ul li {
+
+    display: block;
+    float: left;
+
+}
+
+.abu1 ul li h4 {
+    font-size: 16px;
+    color: #f0f5f4;
+    background-color: rgb(19, 1, 1);
+}
+
+.abu1 ul li {
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px solid black;
+}
+
+.abu1 .fl {
+    position: absolute;
+    left: -15px;
+    top: 40px;
+
+}
+
+.abu1 .fl ul li {
+    border-bottom: 0;
+    height: 45px;
+    width: 35px;
+
+}
+
+.li {
+    border-bottom: 0;
+}
+
+.shape {
+    color: aliceblue;
+    height: 25px;
+    line-height: 25px;
+    background-color: rgb(237, 43, 78);
+}
+
+.shape1 {
+    font-size: 5px;
+    z-index: 2;
+    position: absolute;
+    top: -40px;
+    right: -194px;
+    /* width: 80px; */
+    color: aliceblue;
+    background-color: rgba(183, 171, 171, 0.4);
+}
+
+.shape1:hover {
+    color: aliceblue;
+    background-color: rgba(183, 171, 171, 0.0);
+}
+
+.ctt .str {
+    position: absolute;
+    background-color: rgb(149, 5, 5);
+    color: beige;
+    top: 0;
+    left: -30px;
+}
+
+.ctt {
+    position: relative;
+}
+
+.auth {
+    overflow: hidden;
+}
+
+.auth img {
+    transition: all 0.8s;
+}
+
+.auth img:hover {
+    transform: scale(1.4);
+}
+
+.box {
+    z-index: 1;
+    position: absolute;
+    width: 1200px;
+    height: 100px;
+    background-image: linear-gradient(to right, rgba(243, 74, 74, 0), rgba(255, 208, 194, 0.3), rgba(105, 22, 22, 0));
+
+}
+
+.f1 .shape1:hover {
+    transform: scale(1.1);
+
+}
+
+.f1 .shape1 {
+    transition: all 0.4s;
+}
+
+.f1 {
+    overflow: hidden;
+}
+
+
+
+.ctt ul li:hover {
+    transform: scale(1.1);
+}
+
+.ctt ul li {
+    transition: all 0.5s;
+}
+
+.ctt ul li {
+    overflow: hidden;
+}
+
+.reg ul li:hover {
+    transform: scale(1.1);
+
+}
+
+.reg ul li {
+    transition: all 0.4s;
+}
+
+.reg ul {
+    overflow: hidden;
+}
